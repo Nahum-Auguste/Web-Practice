@@ -1,0 +1,69 @@
+
+body {
+    background-color:rosybrown;
+}
+
+hr {
+    border: 2px dotted rgb(120, 53, 53);
+}
+
+header {
+    text-align: center;
+}
+
+.Header-1 {
+    border: 2px solid black;
+}
+
+article p {
+    margin-left: 10px;
+}
+
+ul {
+    border: 1px black dotted;
+    background-color: burlywood;
+    list-style:lower-greek;
+}
+li {
+    margin-left: -20px;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+nav a {
+    text-decoration: none;
+    color:white;
+    background-color:rgb(225, 87, 115);
+    border: 1px solid black;
+    padding: 7px;
+}
+nav a:hover {
+    color: black;
+    background-color: coral;
+    border: 1px solid white;
+}
+nav a:active {
+    background-color: cadetblue;
+}
+
+address li {
+    list-style: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+figure {
+    text-align: center;
+    
+}
+figure img {
+    border: 1px solid black;
+    padding: 11px;
+    background-image: url("media/images/checker-board.png");
+}
+
